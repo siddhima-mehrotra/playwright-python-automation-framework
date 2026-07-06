@@ -1,0 +1,23 @@
+# Environment files — never commit these
+.env
+
+# Test reports and artifacts
+reports/
+*.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+
+# Playwright
+test-results/
+playwright-report/
+
+# IDE
+.vscode/
+.idea/
+*.swp

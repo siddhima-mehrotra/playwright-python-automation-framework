@@ -1,0 +1,28 @@
+{
+  "valid_users": [
+    {
+      "id": "user_001",
+      "email": "eve.holt@reqres.in",
+      "password": "cityslicka",
+      "role": "admin"
+    },
+    {
+      "id": "user_002",
+      "email": "charles.morris@reqres.in",
+      "password": "pistol",
+      "role": "user"
+    }
+  ],
+  "invalid_users": [
+    {
+      "id": "invalid_001",
+      "email": "notregistered@test.com",
+      "password": "wrongpass",
+      "expected_error": "user not found"
+    }
+  ],
+  "new_user_payload": {
+    "name": "QA Automation Test User",
+    "job": "Senior QA Engineer"
+  }
+}
